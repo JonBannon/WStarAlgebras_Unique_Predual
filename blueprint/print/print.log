@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  2 OCT 2025 19:15
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  2 OCT 2025 19:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -677,22 +677,23 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 ] (./content.tex
-(/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.toc)
+(/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.toc
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00107pt on input line 1.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.00075pt on input line 1.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 1.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 1.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 1.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 1.
+)
 \tf@toc=\write4
 \openout4 = `print.toc'.
 
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 13.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 13.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 13.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 13.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 13.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 13.
 )
 
 [1
@@ -703,16 +704,16 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `print.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: D0B355B6971B8FBF506A4109B2A8522A;105.
  ) 
 Here is how much of TeX's memory you used:
- 16707 strings out of 475366
- 308903 string characters out of 5762340
- 888240 words of memory out of 5000000
- 39479 multiletter control sequences out of 15000+600000
- 564184 words of font info for 82 fonts, out of 8000000 for 9000
+ 16714 strings out of 475366
+ 309019 string characters out of 5762340
+ 889240 words of memory out of 5000000
+ 39484 multiletter control sequences out of 15000+600000
+ 564200 words of font info for 84 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 90i,6n,107p,542b,379s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,6n,107p,542b,382s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /Users/jonbannon/Test Blueprint/double_commutant/blueprint/pr
 int/print.pdf (2 pages).
