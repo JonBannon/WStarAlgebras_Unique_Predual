@@ -8,29 +8,29 @@
 
 \section{Introduction}
 
-\begin{definition}[Blah]\label{def:commutant}
+\begin{dfn}[Blah]\label{def:commutant}
 \lean{commutant}
 The commutant of a set $S$ of operators is the set of $T\in B(\mathcal{H})$
 such that $\forall s\in S,\; Ts=sT$.
-\end{definition}
+\end{dfn}
 
-\begin{definition}\label{def:weak_op_closure}
+\begin{dfn}\label{def:weak_op_closure}
 \lean{weak_op_closure}
 For $A\subseteq B(\mathcal{H})$, the \emph{weak-operator closure} $\overline{A}^{\mathrm{WOT}}$
 is the closure of $A$ in the weak operator topology on $B(\mathcal{H})$.
-\end{definition}
+\end{dfn}
 
-\begin{definition}\label{def:self_adj_star_subalg}
+\begin{dfn}\label{def:self_adj_star_subalg}
 \lean{self_adj_star_subalg}
 A $*$-subalgebra $A\subseteq B(\mathcal{H})$ is \emph{self-adjoint} if $T\in A \Rightarrow T^*\in A$.
-\end{definition}
+\end{dfn}
 
 \section{Main Theorem}
 
-\begin{theorem}[von Neumann 1929]\label{thm:double_commutant}
+\begin{thm}[von Neumann 1929]\label{thm:double_commutant}
 \lean{double_commutant}
 \uses{def:commutant}
 \uses{def:weak_op_closure}
 \uses{def:self_adj_star_subalg}
 The weak operator closure of a self-adjoint $*$-subalgebra of $B(\mathcal{H})$ equals its double commutant.
-\end{theorem}
+\end{thm}
