@@ -1,7 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1759443505.68427 "print.tex" "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.pdf" "print" 1759443506.16038 0
-  "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.aux" 1759443506.10177 387 d63ec17beb568d697ea93780eeabd10e "pdflatex"
-  "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.out" 1759443505.92554 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["pdflatex"] 1759446845.34288 "print.tex" "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.pdf" "print" 1759446845.83091 0
+  "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.aux" 1759446845.76848 613 110c71d4f6e04e655d9cd058e65dcfbf "pdflatex"
+  "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.out" 1759446845.76876 213 8156e7dfcdec95629e9d6f3a936c4039 "pdflatex"
+  "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.toc" 1759446845.76886 144 e98c9131bf451c3137fb058dda410a4d "pdflatex"
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -82,7 +83,7 @@
   "/usr/local/texlive/2025basic/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "/usr/local/texlive/2025basic/texmf-var/web2c/xetex/xelatex.fmt" 1741448333 5092505 adc40861f530b10866b2cb3b1638f0b6 ""
   "/usr/local/texlive/2025basic/texmf.cnf" 1741448314 628 81d1ada0f601fb1ffa62f1323192d946 ""
-  "content.tex" 1759443451.17169 1301 711ee3e2f66a4e0c50da30d453ea36d5 ""
+  "content.tex" 1759446811.3935 1377 931dfc9c32a0285703cd878666937758 ""
   "macros/common.tex" 1759413459.68476 820 60fafcc3aa944a5e60030581a943ef6b ""
   "macros/print.tex" 1759413459.68483 1101 87627b2ec24fef68edc71c13f43f7bab ""
   "print.tex" 1759413459.68505 1154 38f4b557ddc5519d72c31369a6ae6e7d ""
@@ -91,4 +92,5 @@
   "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.log"
   "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.out"
   "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.pdf"
+  "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.toc"
   (rewritten before read)
