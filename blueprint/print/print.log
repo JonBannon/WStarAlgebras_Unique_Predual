@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  2 OCT 2025 19:39
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  2 OCT 2025 19:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -373,7 +373,7 @@ LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 \g__um_primekern_muskip=\muskip19
 
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/unicode-math/unicode-math-ta
-ble.tex))) (./macros/common.tex) (./blueprint.sty) (./macros/print.tex)
+ble.tex))) (./macros/common.tex (./blueprint.sty)) (./macros/print.tex)
 (/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.aux)
 \openout1 = `print.aux'.
 
@@ -674,109 +674,107 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [1
 
-] (/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.toc
+] (./content.tex
+
+! LaTeX Error: Environment definition undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \begin{definition}
+                       [Blah]\label{def:commutant}
+? H
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+? 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 1.
+(Font)              scaled to size 10.00107pt on input line 12.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 1.
+(Font)              scaled to size 7.00075pt on input line 12.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 1.
+(Font)              scaled to size 5.00053pt on input line 12.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 1.
+(Font)              scaled to size 9.99893pt on input line 12.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 1.
+(Font)              scaled to size 6.99925pt on input line 12.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 1.
+(Font)              scaled to size 4.99947pt on input line 12.
+
+! LaTeX Error: \begin{document} ended by \end{definition}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \end{definition}
+                     
+? 
+
+! LaTeX Error: Environment definition undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \begin{definition}
+                       \label{def:weak_op_closure}
+? 
+
+! LaTeX Error: \begin{document} ended by \end{definition}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \end{definition}
+                     
+? 
+
+! LaTeX Error: Environment definition undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \begin{definition}
+                       \label{def:self_adj_star_subalg}
+? 
+
+! LaTeX Error: \begin{document} ended by \end{definition}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \end{definition}
+                     
+? 
+
+! LaTeX Error: Environment theorem undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{theorem}
+                    [von Neumann 1929]\label{thm:double_commutant}
+? 
+
+! LaTeX Error: \begin{document} ended by \end{theorem}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \end{theorem}
+                  
+? 
 )
-\tf@toc=\write4
-\openout4 = `print.toc'.
 
- (./content.tex
-
-! LaTeX Error: Environment dfn undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 \begin{dfn}
-                [Blah]\label{def:commutant}
-? 
-
-! LaTeX Error: \begin{document} ended by \end{dfn}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 \end{dfn}
-              
-? 
-
-! LaTeX Error: Environment dfn undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 \begin{dfn}
-                \label{def:weak_op_closure}
-? 
-
-! LaTeX Error: \begin{document} ended by \end{dfn}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 \end{dfn}
-              
-? 
-
-! LaTeX Error: Environment dfn undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 \begin{dfn}
-                \label{def:self_adj_star_subalg}
-? 
-
-! LaTeX Error: \begin{document} ended by \end{dfn}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 \end{dfn}
-              
-? 
-
-! LaTeX Error: Environment thm undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 \begin{thm}
-                [von Neumann 1929]\label{thm:double_commutant}
-? 
-
-! LaTeX Error: \begin{document} ended by \end{thm}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 \end{thm}
-              
-? 
+[1] (/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.aux
 )
-
-[1
-
-] (/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -785,11 +783,11 @@ Package rerunfilecheck Info: File `print.out' has not changed.
 (rerunfilecheck)             Checksum: 8156E7DFCDEC95629E9D6F3A936C4039;213.
  ) 
 Here is how much of TeX's memory you used:
- 16707 strings out of 475366
- 308930 string characters out of 5762340
- 889240 words of memory out of 5000000
+ 16702 strings out of 475366
+ 308684 string characters out of 5762340
+ 888240 words of memory out of 5000000
  39474 multiletter control sequences out of 15000+600000
- 564200 words of font info for 84 fonts, out of 8000000 for 9000
+ 564184 words of font info for 82 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  90i,6n,107p,542b,352s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
