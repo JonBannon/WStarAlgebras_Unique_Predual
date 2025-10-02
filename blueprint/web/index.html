@@ -15,8 +15,6 @@
 <title>von Neumann Double Commutant Theorem</title>
 <link rel="stylesheet" href="styles/theme-white.css" />
 <link rel="stylesheet" href="styles/amsthm.css" />
-<link rel="stylesheet" href="styles/showmore.css" />
-<link rel="stylesheet" href="styles/blueprint.css" />
 <link rel="stylesheet" href="styles/extra_styles.css" />
 </head>
 
@@ -35,7 +33,6 @@
 <span class="author">Jon Bannon Jireh Loreaux</span>
 </p>
 </div>
-
 <div class="definition_thmwrapper theorem-style-definition" id="def:commutant">
   <div class="definition_thmheading">
     <span class="definition_thmcaption">
@@ -43,38 +40,33 @@
     </span>
     <span class="definition_thmlabel">1</span>
     <span class="definition_thmtitle">Blah</span>
-    <div class="thm_header_extras">
-
-        </div>
-    <div class="thm_header_hidden_extras">
-
-    <a class="icon proof" href="index.html#def:commutant">#</a>
-    
-    
-    
-    <button class="modal lean">L∃∀N</button>
-        <div class="modal-container">
-      <div class="modal-content">
-        <header>
-          <h1>Lean declarations</h1>
-          <button class="closebtn"><svg  class="icon icon-cross "><use xlink:href="symbol-defs.svg#icon-cross"></use></svg>
-</button>
-        </header>
-        
-        <ul class="uses">
-          
-          <li><a href="https://JonBannon.github.io/double_commutant/docs/find/#doc/commutant" class="lean_decl">commutant</a></li>
-          
-        </ul>
-    
-      </div>
-    </div>
-
-    
-        </div>
   </div>
   <div class="definition_thmcontent">
-  <p>   The commutant of a set \(S\) of operators is the set of \(T\in B(\mathcal{H})\) such that \(\forall s\in S, Ts=sT\). </p>
+  <p> commutant The commutant of a set \(S\) of operators is the set of \(T\in B(\mathcal{H})\) such that \(\forall s\in S,\;  Ts=sT\). </p>
+
+  </div>
+</div>
+<div class="definition_thmwrapper theorem-style-definition" id="def:weak_op_closure">
+  <div class="definition_thmheading">
+    <span class="definition_thmcaption">
+    Definition
+    </span>
+    <span class="definition_thmlabel">2</span>
+  </div>
+  <div class="definition_thmcontent">
+  <p> weak_op_closure For \(A\subseteq B(\mathcal{H})\), the <em>weak-operator closure</em> \(\overline{A}^{\mathrm{WOT}}\) is the closure of \(A\) in the weak operator topology on \(B(\mathcal{H})\). </p>
+
+  </div>
+</div>
+<div class="definition_thmwrapper theorem-style-definition" id="def:self_adj_star_subalg">
+  <div class="definition_thmheading">
+    <span class="definition_thmcaption">
+    Definition
+    </span>
+    <span class="definition_thmlabel">3</span>
+  </div>
+  <div class="definition_thmcontent">
+  <p> self_adj_star_subalg A \(*\)-subalgebra \(A\subseteq B(\mathcal{H})\) is <em>self-adjoint</em> if \(T\in A \Rightarrow T^*\in A\). </p>
 
   </div>
 </div>
@@ -83,40 +75,11 @@
     <span class="theorem_thmcaption">
     Theorem
     </span>
-    <span class="theorem_thmlabel">2</span>
+    <span class="theorem_thmlabel">4</span>
     <span class="theorem_thmtitle">von Neumann 1929</span>
-    <div class="thm_header_extras">
-
-        </div>
-    <div class="thm_header_hidden_extras">
-
-    <a class="icon proof" href="index.html#thm:double_commutant">#</a>
-    
-    
-    
-    <button class="modal lean">L∃∀N</button>
-        <div class="modal-container">
-      <div class="modal-content">
-        <header>
-          <h1>Lean declarations</h1>
-          <button class="closebtn"><svg  class="icon icon-cross "><use xlink:href="symbol-defs.svg#icon-cross"></use></svg>
-</button>
-        </header>
-        
-        <ul class="uses">
-          
-          <li><a href="https://JonBannon.github.io/double_commutant/docs/find/#doc/double_commutant" class="lean_decl">double_commutant</a></li>
-          
-        </ul>
-    
-      </div>
-    </div>
-
-    
-        </div>
   </div>
   <div class="theorem_thmcontent">
-  <p>      The weak operator closure of a self adjoint star subalgebra of operators acting on a Hilbert space equals the double commutant of that algebra. </p>
+  <p> double_commutant def:commutant def:weak_op_closure def:self_adj_star_subalg The weak operator closure of a self-adjoint \(*\)-subalgebra of \(B(\mathcal{H})\) equals its double commutant. </p>
 
   </div>
 </div>
@@ -127,16 +90,10 @@
 </div> <!-- wrapper -->
 
 <nav class="prev_up_next">
-  <svg  id="showmore-minus" class="icon icon-eye-minus showmore"><use xlink:href="symbol-defs.svg#icon-eye-minus"></use></svg>
-
-  <svg  id="showmore-plus" class="icon icon-eye-plus showmore"><use xlink:href="symbol-defs.svg#icon-eye-plus"></use></svg>
-
 </nav>
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/plastex.js"></script>
 <script type="text/javascript" src="js/svgxuse.js"></script>
-<script type="text/javascript" src="js/js.cookie.min.js"></script>
-<script type="text/javascript" src="js/showmore.js"></script>
 </body>
 </html>
