@@ -126,6 +126,8 @@ INPUT ./macros/common.tex
 INPUT ./macros/common.tex
 INPUT ./macros/common.tex
 INPUT macros/common.tex
+INPUT ./blueprint.sty
+INPUT blueprint.sty
 INPUT ./macros/print.tex
 INPUT ./macros/print.tex
 INPUT ./macros/print.tex
@@ -162,6 +164,11 @@ INPUT /Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.out
 INPUT /Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.out
 INPUT /Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.out
 OUTPUT /Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.out
+INPUT ./content.tex
+INPUT ./content.tex
+INPUT ./content.tex
+INPUT ./content.tex
+INPUT content.tex
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
@@ -177,11 +184,6 @@ INPUT /usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT ./content.tex
-INPUT ./content.tex
-INPUT ./content.tex
-INPUT ./content.tex
-INPUT content.tex
 INPUT /Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.toc
 INPUT /Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.toc
 INPUT /Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.toc
@@ -192,6 +194,3 @@ INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 OUTPUT /Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.toc
-INPUT /Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.aux
-INPUT /Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.out
-INPUT /Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.out
