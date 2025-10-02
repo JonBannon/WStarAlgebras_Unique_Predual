@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1759447063.72493 "print.tex" "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.pdf" "print" 1759447064.20476 0
-  "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.aux" 1759447064.1451 500 d016c962fff0d16f3e4fde8acaa41477 "pdflatex"
-  "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.out" 1759447064.14539 105 d0b355b6971b8fbf506a4109b2a8522a "pdflatex"
-  "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.toc" 1759447064.14577 72 87e2ed5b201992476dcf9ebeaa02819b "pdflatex"
+["pdflatex"] 1759448256.31729 "print.tex" "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.pdf" "print" 1759448261.16167 2
+  "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.aux" 1759448261.07714 657 127e098a95e64b7362a041e04a55497f "pdflatex"
+  "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.out" 1759448261.07829 213 8156e7dfcdec95629e9d6f3a936c4039 "pdflatex"
+  "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.toc" 1759448261.0787 144 e98c9131bf451c3137fb058dda410a4d "pdflatex"
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -83,10 +83,11 @@
   "/usr/local/texlive/2025basic/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "/usr/local/texlive/2025basic/texmf-var/web2c/xetex/xelatex.fmt" 1741448333 5092505 adc40861f530b10866b2cb3b1638f0b6 ""
   "/usr/local/texlive/2025basic/texmf.cnf" 1741448314 628 81d1ada0f601fb1ffa62f1323192d946 ""
-  "content.tex" 1759447018.90597 1342 464b922a4e34d82c62c2032d7362e005 ""
-  "macros/common.tex" 1759413459.68476 820 60fafcc3aa944a5e60030581a943ef6b ""
+  "blueprint.sty" 1759413459.68444 33 380e7b64027817bb38aa9902f30ab0d0 ""
+  "content.tex" 1759448149.90974 1299 96594273f32271dccc829f6545c940c7 ""
+  "macros/common.tex" 1759448149.90975 650 d6424ecc40c5680ddda2fb29d6968d21 ""
   "macros/print.tex" 1759413459.68483 1101 87627b2ec24fef68edc71c13f43f7bab ""
-  "print.tex" 1759413459.68505 1154 38f4b557ddc5519d72c31369a6ae6e7d ""
+  "print.tex" 1759447989.61757 1171 10fee933f5c3db456e18393b0e283bb1 ""
   (generated)
   "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.aux"
   "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.log"
