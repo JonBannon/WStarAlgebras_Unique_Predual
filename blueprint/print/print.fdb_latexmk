@@ -1,0 +1,9 @@
+# Fdb version 4
+["pdflatex"] 0 "print.tex" "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.pdf" "print" 0 -1
+  "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.aux" 0 -1 0 "pdflatex"
+  "print.tex" 0 -1 0 ""
+  (generated)
+  "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.aux"
+  "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.log"
+  "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.pdf"
+  (rewritten before read)
