@@ -11,9 +11,11 @@
 % [chapter] at the end of the next line.
 % web + print: load blueprint's theorem suite
 % Load the plasTeX blueprint package (web) and/or use print fallback via print.tex
-\usepackage[thms=dfn+lem+prop+thm+cor+rmk+ex]{blueprint}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
 
-% IMPORTANT: map dfn/thm to the names plasTeX knows
-\newenvironment{dfn}{\begin{definition}}{\end{definition}}
-\newenvironment{thm}{\begin{theorem}}{\end{theorem}}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
 
