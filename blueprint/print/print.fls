@@ -126,8 +126,6 @@ INPUT ./macros/common.tex
 INPUT ./macros/common.tex
 INPUT ./macros/common.tex
 INPUT macros/common.tex
-INPUT ./blueprint.sty
-INPUT blueprint.sty
 INPUT ./macros/print.tex
 INPUT ./macros/print.tex
 INPUT ./macros/print.tex

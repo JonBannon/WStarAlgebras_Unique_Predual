@@ -1,4 +1,9 @@
-commutant
-weak_op_closure
-self_adj_star_subalg
-double_commutant
+ContinuousFunctionalCalculus
+ContinuousFunctionalCalculus
+cfc
+cfcₙ
+continuousFunctionalCalculus
+IsStarNormal.instContinuousFunctionalCalculus
+IsSelfAdjoint.instContinuousFunctionalCalculus
+foo
+Nonneg.instContinuousFunctionalCalculus

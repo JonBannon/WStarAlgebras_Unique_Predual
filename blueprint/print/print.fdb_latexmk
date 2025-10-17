@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1759448503.42826 "print.tex" "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.pdf" "print" 1759448557.72959 2
-  "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.aux" 1759448557.64365 657 127e098a95e64b7362a041e04a55497f "pdflatex"
-  "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.out" 1759448557.64482 213 8156e7dfcdec95629e9d6f3a936c4039 "pdflatex"
+["pdflatex"] 1759450442.93371 "print.tex" "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.pdf" "print" 1759450443.41102 0
+  "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.aux" 1759450443.35181 613 110c71d4f6e04e655d9cd058e65dcfbf "pdflatex"
+  "/Users/jonbannon/Test Blueprint/double_commutant/blueprint/print/print.out" 1759450443.35207 213 8156e7dfcdec95629e9d6f3a936c4039 "pdflatex"
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -82,9 +82,8 @@
   "/usr/local/texlive/2025basic/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "/usr/local/texlive/2025basic/texmf-var/web2c/xetex/xelatex.fmt" 1741448333 5092505 adc40861f530b10866b2cb3b1638f0b6 ""
   "/usr/local/texlive/2025basic/texmf.cnf" 1741448314 628 81d1ada0f601fb1ffa62f1323192d946 ""
-  "blueprint.sty" 1759413459.68444 33 380e7b64027817bb38aa9902f30ab0d0 ""
   "content.tex" 1759448485.0073 1347 372ac8126d5ecd56d946c0d5257fd234 ""
-  "macros/common.tex" 1759448485.00732 802 af44fa688408cee267abae2a2592fef7 ""
+  "macros/common.tex" 1759450398.39098 951 01f99c62838198d927839d5932f35177 ""
   "macros/print.tex" 1759413459.68483 1101 87627b2ec24fef68edc71c13f43f7bab ""
   "print.tex" 1759448485.00731 1154 38f4b557ddc5519d72c31369a6ae6e7d ""
   (generated)
