@@ -6,7 +6,7 @@
 % the current file can be a simple sequence of \input. Otherwise It
 % can start with a \section or \chapter for instance
 
-\section{Normality and Ultraweak Continuity}
+\section{Normality and $\sigma$--Continuity}
 
 In what follows, let $M$ be a $W^{*}$--algebra. Let $\mathcal{P}(M)$
 denote the projection lattice of $M$. Let $\varphi$ be a positive linear functional $\varphi$ on $M$.
@@ -70,11 +70,16 @@ Recall that a compact Hausdorff space is \textbf{Stonean} if the closure of ever
 
 \begin{lemma}
   \label{lem: spec_masa_wstar_stonean}
-  If $C$ is any maximal commutative $C^*$--subalgebra of a $W^{*}$--algebra $M$, its
+  If $C$ is any maximal commutative $C^*$--subalgebra of the $W^{*}$--algebra $M$, its
   spectrum space (maximal ideal space) is Stonean.
 \end{lemma}
 
-
+\begin{lemma}
+  \label{zorn_base}
+  Let $\varphi$ be a normal positive linear functional on $M$ and consider the predicate $P:\mathcal{P}(M)\to$ Proj defined, for $p\in \mathcal{P}(M)$, by 
+  ``$M\ni x \mapsto \varphi(xp)$ is $\sigma(M,M_{*})$--continuous''. If $(p_{\alpha})$ is a chain of projections in $M$ such that $P(p_{\alpha})$ for each $\alpha$,
+  then $P(\sup(p_{\alpha}))$. Hence by Zorn's Lemma there is a maximal $p_0\in \mathcal{P}(M)$ such that $P(p_0)$.  
+\end{lemma}
 
 \section{Continuous functional calculus}
 
