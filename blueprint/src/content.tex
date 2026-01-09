@@ -8,15 +8,35 @@
 
 \section{Normality and Ultraweak Continuity}
 
-In what follows, let $\mathcal{M}$ be a $W^{*}$--algebra. Let $\mathcal{P}(\mathcal{M})$
-denote the projection lattice of $\mathcal{M}$.
+In what follows, let $M$ be a $W^{*}$--algebra. Let $\mathcal{P}(M)$
+denote the projection lattice of $M$. Let $\varphi$ be a positive linear functional $\varphi$ on $M$.
+We say $\varphi$ is \textbf{normal} if whenever $(p_{\alpha})$ is an increasing net of projections in $M$ with supremum $p$,
+we have $\varphi(p_{\alpha})\to \varphi(p)$. In this section we show that this property is equivalent to 
+$\sigma(M, M_{*})$--continuity. We say that a linear functional $\varphi$ on $M$
+is \textbf{positive} if $\varphi(x)\ge 0$ whenever $x\ge 0$.
+
+\textit{Note : All references to nets must be replaced by filter versions.}
 
 \begin{lemma}
-  For all self-adjoint $x\in \mathcal{M}$, $\|x\|1-x \ge 0$.
+  For all self-adjoint $x\in M$, $\|x\|1-x \ge 0$.
 \end{lemma}
 
 \begin{lemma}
-  For all $p,q\in \mathcal{P}(\mathcal{M})$ such that $q\le p$, $p-q\in \mathcal{P}(\mathcal{M})$.
+  For all $p,q\in \mathcal{P}(M)$ such that $q\le p$, $p-q\in \mathcal{P}(M)$.
+\end{lemma}
+
+\begin{lemma}
+  For every increasing bounded net $(p_{\alpha})$ of projections in $M$, the supremum $p$
+  is a projection in $\mathcal{M}$
+\end{lemma}
+
+Let $P:\mathcal{P}(M)\to \text{Prop}$ be a predicate. The usual ordering ``$\le$'' on projections
+induces an order on the set $\{p\in \mathcal{P}(M)|P(p)\}. In what follows there will be no confusion if 
+we also denote this induced order by ``$\le$''.
+
+\begin{lemma}
+  If $\varphi$ is a positive normal linear functional and $p\in $\mathcal{P}(M)$ is nonzero.
+  There exists a positive $\sigma(M,M_{*})$--continuous linear function $\psi$ such that $\varphi(p)<\psi(p)$
 \end{lemma}
 
 
