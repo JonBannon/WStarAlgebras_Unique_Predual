@@ -12,9 +12,8 @@
 <meta name="generator" content="plasTeX" />
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>\(W^{*}\)–Algebras have Unique Preduals: Normality and \(\sigma \)–Continuity</title>
-<link rel="next" href="sect0003.html" title="Continuous functional calculus" />
-<link rel="prev" href="sect0001.html" title="Introduction" />
+<title>\(W^{*}\)–Algebras have Unique Preduals: Continuous functional calculus</title>
+<link rel="prev" href="sect0001.html" title="Normality and σ–Continuity" />
 <link rel="up" href="index.html" title="W*–Algebras have Unique Preduals" />
 <link rel="stylesheet" href="styles/theme-white.css" />
 <link rel="stylesheet" href="styles/amsthm.css" />
@@ -33,13 +32,20 @@
 <nav class="toc">
 <ul class="sub-toc-0">
 <li class="">
-  <a href="sect0001.html"><span class="toc_ref">0.1</span> <span class="toc_entry">Introduction</span></a>
- </li>
-<li class=" active current">
-  <a href="sect0002.html"><span class="toc_ref">0.2</span> <span class="toc_entry">Normality and \(\sigma \)–Continuity</span></a>
+  <a href="sect0001.html"><span class="toc_ref">0.1</span> <span class="toc_entry">Normality and \(\sigma \)–Continuity</span></a>
+  <span class="expand-toc">▶</span>
+  <ul class="sub-toc-1">
+     <li class="">
+  <a href="sect0001.html#a0000000004"><span class="toc_ref">0.1.1</span> <span class="toc_entry">\(\sigma \)–Continuous Implies Normal</span></a>
  </li>
 <li class="">
-  <a href="sect0003.html"><span class="toc_ref">0.3</span> <span class="toc_entry">Continuous functional calculus</span></a>
+  <a href="sect0001.html#a0000000005"><span class="toc_ref">0.1.2</span> <span class="toc_entry">Normal Implies \(\sigma \)–Continuous</span></a>
+ </li>
+
+  </ul>
+ </li>
+<li class=" active current">
+  <a href="sect0002.html"><span class="toc_ref">0.2</span> <span class="toc_entry">Continuous functional calculus</span></a>
  </li>
 <li ><a href="dep_graph_document.html">Dependency graph</a></li>
 </ul>
@@ -50,207 +56,91 @@
 
 
 <div class="main-text">
-<h1 id="a0000000003">0.2 Normality and \(\sigma \)–Continuity</h1>
-<p>In what follows, let \(M\) be a \(W^{*}\)–algebra. Let \(\mathcal{P}(M)\) denote the projection lattice of \(M\). Let \(\varphi \) be a positive linear functional \(\varphi \) on \(M\). We say \(\varphi \) is <b class="bfseries">normal</b> if whenever \((p_{\alpha })\) is an increasing net of projections in \(M\) with supremum \(p\), we have \(\varphi (p_{\alpha })\to \varphi (p)\). In this section we show that this property is equivalent to \(\sigma (M, M_{*})\)–continuity. We say that a linear functional \(\varphi \) on \(M\) is <b class="bfseries">positive</b> if \(\varphi (x)\ge 0\) whenever \(x\ge 0\). </p>
-<p><i class="itshape">To do : Net results must be replaced by filter versions.</i> </p>
-<div class="lemma_thmwrapper theorem-style-plain" id="lem: selfadjoint_le_norm">
-  <div class="lemma_thmheading">
-    <span class="lemma_thmcaption">
-    Lemma
+<h1 id="a0000000003">0.2 Continuous functional calculus</h1>
+<div class="definition_thmwrapper theorem-style-definition" id="def:continuous_functional_calculus">
+  <div class="definition_thmheading">
+    <span class="definition_thmcaption">
+    Definition
     </span>
-    <span class="lemma_thmlabel">1</span>
+    <span class="definition_thmlabel">10</span>
+    <span class="definition_thmtitle">Continuous functional calculus</span>
     <div class="thm_header_extras">
 
+    
+    ✓
         </div>
     <div class="thm_header_hidden_extras">
 
-    <a class="icon proof" href="sect0002.html#lem: selfadjoint_le_norm">#</a>
+    <a class="icon proof" href="sect0002.html#def:continuous_functional_calculus">#</a>
     
     
+    
+    <button class="modal lean">L∃∀N</button>
+        <div class="modal-container">
+      <div class="modal-content">
+        <header>
+          <h1>Lean declarations</h1>
+          <button class="closebtn"><svg  class="icon icon-cross "><use xlink:href="symbol-defs.svg#icon-cross"></use></svg>
+</button>
+        </header>
+        
+        <ul class="uses">
+          
+          <li><a href="https://j-loreaux.github.io/LeanOA/docs/find/#doc/ContinuousFunctionalCalculus" class="lean_decl">ContinuousFunctionalCalculus</a></li>
+          
+        </ul>
+    
+      </div>
+    </div>
+
     
         </div>
   </div>
-  <div class="lemma_thmcontent">
-  <p> For all self-adjoint \(x\in M\), \(\| x\| 1-x \ge 0\). </p>
+  <div class="definition_thmcontent">
+  <p>   A \(*\)-\(R\)-algebra is said to have a continuous functional calculus for elements satisfying a predicate \(p\) if, for each \(a\) satisfying \(p\), there is a \(*\)-homomorphism \(\phi _a : C(\spectrum [R]{a}, R) \to A\) sending the identity function to \(a\), and which is a closed embedding. Moreover, \(\spectrum [R]{a}\) is compact and nonempty, and \(\phi _a\) satisfies the spectral mapping property (i.e., \(\spectrum [R]{\phi _a(f)} = f(\spectrum [R]{a})\)). </p>
 
   </div>
 </div>
-<div class="lemma_thmwrapper theorem-style-plain" id="lem: proj_sub_of_subproj">
-  <div class="lemma_thmheading">
-    <span class="lemma_thmcaption">
-    Lemma
+<div class="theorem_thmwrapper theorem-style-plain" id="thm:gelfand_cfc_iso">
+  <div class="theorem_thmheading">
+    <span class="theorem_thmcaption">
+    Theorem
     </span>
-    <span class="lemma_thmlabel">2</span>
+    <span class="theorem_thmlabel">11</span>
     <div class="thm_header_extras">
 
+    
+    ✓
         </div>
     <div class="thm_header_hidden_extras">
 
-    <a class="icon proof" href="sect0002.html#lem: proj_sub_of_subproj">#</a>
+    <a class="icon proof" href="sect0002.html#thm:gelfand_cfc_iso">#</a>
     
     
+    
+    <button class="modal lean">L∃∀N</button>
+        <div class="modal-container">
+      <div class="modal-content">
+        <header>
+          <h1>Lean declarations</h1>
+          <button class="closebtn"><svg  class="icon icon-cross "><use xlink:href="symbol-defs.svg#icon-cross"></use></svg>
+</button>
+        </header>
+        
+        <ul class="uses">
+          
+          <li><a href="https://j-loreaux.github.io/LeanOA/docs/find/#doc/continuousFunctionalCalculus" class="lean_decl">continuousFunctionalCalculus</a></li>
+          
+        </ul>
+    
+      </div>
+    </div>
+
     
         </div>
   </div>
-  <div class="lemma_thmcontent">
-  <p> For all \(p,q\in \mathcal{P}(M)\) such that \(q\le p\), \(p-q\in \mathcal{P}(M)\). </p>
-
-  </div>
-</div>
-<div class="lemma_thmwrapper theorem-style-plain" id="lem: proj_of_sup_proj">
-  <div class="lemma_thmheading">
-    <span class="lemma_thmcaption">
-    Lemma
-    </span>
-    <span class="lemma_thmlabel">3</span>
-    <div class="thm_header_extras">
-
-        </div>
-    <div class="thm_header_hidden_extras">
-
-    <a class="icon proof" href="sect0002.html#lem: proj_of_sup_proj">#</a>
-    
-    
-    
-        </div>
-  </div>
-  <div class="lemma_thmcontent">
-  <p> For every increasing bounded net \((p_{\alpha })\) of projections in \(M\), the supremum \(p\) is a projection in \(\mathcal{M}\) </p>
-
-  </div>
-</div>
-<p>If \(P:\mathcal{P}(M)\to \text{Prop}\) is a predicate, the usual ordering “\(\le \)” on projections induces an order on the set \(\{ p\in \mathcal{P}(M)|P(p)\} \). In what follows there will be no confusion if we also denote this induced order by “\(\le \)”. </p>
-<p>The following lemma undoubtedly exists in Mathlib in more generality already. </p>
-<div class="lemma_thmwrapper theorem-style-plain" id="lem: uw_pos_sep_pts">
-  <div class="lemma_thmheading">
-    <span class="lemma_thmcaption">
-    Lemma
-    </span>
-    <span class="lemma_thmlabel">4</span>
-    <div class="thm_header_extras">
-
-        </div>
-    <div class="thm_header_hidden_extras">
-
-    <a class="icon proof" href="sect0002.html#lem: uw_pos_sep_pts">#</a>
-    
-    
-    
-        </div>
-  </div>
-  <div class="lemma_thmcontent">
-  <p> For every nonzero element \(a\in M\), there is a \(\sigma (M,M_{*})\)–continuous positive linear functional \(\psi \) on \(M\) such that \(\psi (a)\ne 0\). </p>
-
-  </div>
-</div>
-<div class="lemma_thmwrapper theorem-style-plain" id="lem: exists_uw_ge_normal">
-  <div class="lemma_thmheading">
-    <span class="lemma_thmcaption">
-    Lemma
-    </span>
-    <span class="lemma_thmlabel">5</span>
-    <div class="thm_header_extras">
-
-        </div>
-    <div class="thm_header_hidden_extras">
-
-    <a class="icon proof" href="sect0002.html#lem: exists_uw_ge_normal">#</a>
-    
-    
-    
-        </div>
-  </div>
-  <div class="lemma_thmcontent">
-  <p> For every positive normal linear functional \(\varphi \) and nonzero \(p\in \mathcal{P}(M)\) there exists a positive \(\sigma (M,M_{*})\)–continuous linear functional \(\psi \) such that \(\varphi (p){\lt}\psi (p)\). </p>
-
-  </div>
-</div>
-<div class="lemma_thmwrapper theorem-style-plain" id="lem: msr_th_lemma">
-  <div class="lemma_thmheading">
-    <span class="lemma_thmcaption">
-    Lemma
-    </span>
-    <span class="lemma_thmlabel">6</span>
-    <div class="thm_header_extras">
-
-        </div>
-    <div class="thm_header_hidden_extras">
-
-    <a class="icon proof" href="sect0002.html#lem: msr_th_lemma">#</a>
-    
-    
-    
-        </div>
-  </div>
-  <div class="lemma_thmcontent">
-  <p> For all positive linear functionals \(\varphi ,\psi \) with \(\varphi \) normal and \(\psi \) \(\sigma (M,M_{*})\)–continuous and every nonzero \(p\in \mathcal{P}(M)\) such that \(\varphi (p){\lt}\psi (p)\), there exists a nonzero \(p_1 \in \mathcal{P}(M)\) such that \(p_1\le p\) and for all \(q\in \mathcal{P}(M)\) with \(q\le p\), we have \(\varphi (q){\lt}\phi (q)\). </p>
-
-  </div>
-</div>
-<p>Recall that a compact Hausdorff space is <b class="bfseries">Stonean</b> if the closure of every open set is open. </p>
-<div class="lemma_thmwrapper theorem-style-plain" id="lem: fin_lin_approx_of_stonean">
-  <div class="lemma_thmheading">
-    <span class="lemma_thmcaption">
-    Lemma
-    </span>
-    <span class="lemma_thmlabel">7</span>
-    <div class="thm_header_extras">
-
-        </div>
-    <div class="thm_header_hidden_extras">
-
-    <a class="icon proof" href="sect0002.html#lem: fin_lin_approx_of_stonean">#</a>
-    
-    
-    
-        </div>
-  </div>
-  <div class="lemma_thmcontent">
-  <p> Let \(K\) be a Stonean space. Then every element \(a\) in \(C(K)\) can be uniformly approximated by finite linear combinations of projections in \(C(K)\). If \(a\ge 0\) then the coefficients of the approximating linear combinations may be chosen nonnegative. </p>
-
-  </div>
-</div>
-<div class="lemma_thmwrapper theorem-style-plain" id="lem: spec_masa_wstar_stonean">
-  <div class="lemma_thmheading">
-    <span class="lemma_thmcaption">
-    Lemma
-    </span>
-    <span class="lemma_thmlabel">8</span>
-    <div class="thm_header_extras">
-
-        </div>
-    <div class="thm_header_hidden_extras">
-
-    <a class="icon proof" href="sect0002.html#lem: spec_masa_wstar_stonean">#</a>
-    
-    
-    
-        </div>
-  </div>
-  <div class="lemma_thmcontent">
-  <p> If \(C\) is any maximal commutative \(C^*\)–subalgebra of the \(W^{*}\)–algebra \(M\), its spectrum space (maximal ideal space) is Stonean. </p>
-
-  </div>
-</div>
-<div class="lemma_thmwrapper theorem-style-plain" id="zorn_base">
-  <div class="lemma_thmheading">
-    <span class="lemma_thmcaption">
-    Lemma
-    </span>
-    <span class="lemma_thmlabel">9</span>
-    <div class="thm_header_extras">
-
-        </div>
-    <div class="thm_header_hidden_extras">
-
-    <a class="icon proof" href="sect0002.html#zorn_base">#</a>
-    
-    
-    
-        </div>
-  </div>
-  <div class="lemma_thmcontent">
-  <p> Let \(\varphi \) be a normal positive linear functional on \(M\) and consider the predicate \(P:\mathcal{P}(M)\to \) Proj defined, for \(p\in \mathcal{P}(M)\), by “\(M\ni x \mapsto \varphi (xp)\) is \(\sigma (M,M_{*})\)–continuous”. If \((p_{\alpha })\) is a chain of projections in \(M\) such that \(P(p_{\alpha })\) is true for each \(\alpha \), then \(P(\sup (p_{\alpha }))\) is true. Hence by Zorn’s Lemma there is a maximal \(p_0\in \mathcal{P}(M)\) such that \(P(p_0)\) is true. </p>
+  <div class="theorem_thmcontent">
+  <p>  For every normal element \(a\) in a unital \(C^*\)-algebra \(A\) there is a \(*\)-isomorphism between \(C(\spectrum {a}, ℂ)\) and the \(C^*\)-subalgebra of \(A\) generated by \(a\). </p>
 
   </div>
 </div>
@@ -265,11 +155,9 @@
 
   <svg  id="showmore-plus" class="icon icon-eye-plus showmore"><use xlink:href="symbol-defs.svg#icon-eye-plus"></use></svg>
 
-  <a href="sect0001.html" title="Introduction"><svg  class="icon icon-arrow-left "><use xlink:href="symbol-defs.svg#icon-arrow-left"></use></svg>
+  <a href="sect0001.html" title="Normality and \(\sigma \)–Continuity"><svg  class="icon icon-arrow-left "><use xlink:href="symbol-defs.svg#icon-arrow-left"></use></svg>
 </a>
   <a href="index.html" title="\(W^{*}\)–Algebras have Unique Preduals"><svg  class="icon icon-arrow-up "><use xlink:href="symbol-defs.svg#icon-arrow-up"></use></svg>
-</a>
-  <a href="sect0003.html" title="Continuous functional calculus"><svg  class="icon icon-arrow-right "><use xlink:href="symbol-defs.svg#icon-arrow-right"></use></svg>
 </a>
 </nav>
 
