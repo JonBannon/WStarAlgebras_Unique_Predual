@@ -13,7 +13,6 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>\(W^{*}\)–Algebras have Unique Preduals: Normality and \(\sigma \)–Continuity for Positive Functionals</title>
-<link rel="next" href="sect0002.html" title="Continuous functional calculus" />
 <link rel="prev" href="index.html" title="W*–Algebras have Unique Preduals" />
 <link rel="up" href="index.html" title="W*–Algebras have Unique Preduals" />
 <link rel="stylesheet" href="styles/theme-white.css" />
@@ -37,16 +36,13 @@
   <span class="expand-toc">▼</span>
   <ul class="sub-toc-1 active">
      <li class="">
-  <a href="sect0001.html#a0000000004"><span class="toc_ref">0.1.1</span> <span class="toc_entry">\(\sigma \)–Continuous Implies Normal</span></a>
+  <a href="sect0001.html#a0000000003"><span class="toc_ref">0.1.1</span> <span class="toc_entry">\(\sigma \)–Continuous Implies Normal</span></a>
  </li>
 <li class="">
-  <a href="sect0001.html#a0000000005"><span class="toc_ref">0.1.2</span> <span class="toc_entry">Normal Implies \(\sigma \)–Continuous</span></a>
+  <a href="sect0001.html#a0000000004"><span class="toc_ref">0.1.2</span> <span class="toc_entry">Normal Implies \(\sigma \)–Continuous</span></a>
  </li>
 
   </ul>
- </li>
-<li class="">
-  <a href="sect0002.html"><span class="toc_ref">0.2</span> <span class="toc_entry">Continuous functional calculus</span></a>
  </li>
 <li ><a href="dep_graph_document.html">Dependency graph</a></li>
 </ul>
@@ -60,9 +56,9 @@
 <h1 id="a0000000002">0.1 Normality and \(\sigma \)–Continuity for Positive Functionals</h1>
 <p>In what follows, let \(M\) be a (nonzero) \(W^{*}\)–algebra. Let \(\mathcal{P}(M)\) denote the projection lattice of \(M\). Let \(\varphi \) be a positive linear functional \(\varphi \) on \(M\). We say \(\varphi \) is <b class="bfseries">normal</b> if whenever \((p_{\alpha })\) is an increasing net of projections in \(M\) with supremum \(p\), we have \(\varphi (p_{\alpha })\to \varphi (p)\). In this section we show that this property is equivalent to \(\sigma (M, M_{*})\)–continuity. We say that a linear functional \(\varphi \) on \(M\) is <b class="bfseries">positive</b> if \(\varphi (x)\ge 0\) whenever \(x\ge 0\). </p>
 <p><i class="itshape">To do : Net results must be replaced by filter versions.</i> </p>
-<h2 id="a0000000004">0.1.1 \(\sigma \)–Continuous Implies Normal</h2>
-<p>This is 1.7.4 in Sakai. </p>
-<h2 id="a0000000005">0.1.2 Normal Implies \(\sigma \)–Continuous</h2>
+<h2 id="a0000000003">0.1.1 \(\sigma \)–Continuous Implies Normal</h2>
+<p>This is 1.7.4 in Sakai. Roughly, taking an increasing net of projections, it converges to the sup strongly, hence \(\sigma \)-topology, and the \(\sigma \)-continuity finishes the proof. </p>
+<h2 id="a0000000004">0.1.2 Normal Implies \(\sigma \)–Continuous</h2>
 <div class="lemma_thmwrapper theorem-style-plain" id="lem: selfadjoint_le_norm">
   <div class="lemma_thmheading">
     <span class="lemma_thmcaption">
@@ -343,19 +339,51 @@
 
     <a class="icon proof" href="sect0001.html#sigma_cts_of_normal">#</a>
     
-    <a class="icon proof" href="sect0001.html#a0000000006"><svg  class="icon icon-cogs "><use xlink:href="symbol-defs.svg#icon-cogs"></use></svg>
+    <a class="icon proof" href="sect0001.html#a0000000005"><svg  class="icon icon-cogs "><use xlink:href="symbol-defs.svg#icon-cogs"></use></svg>
 </a>
     
+    
+    <button class="modal"><svg  class="icon icon-mindmap "><use xlink:href="symbol-defs.svg#icon-mindmap"></use></svg>
+</button>
+        <div class="modal-container">
+      <div class="modal-content">
+        <header>
+          <h1>Uses</h1>
+          <button class="closebtn"><svg  class="icon icon-cross "><use xlink:href="symbol-defs.svg#icon-cross"></use></svg>
+</button>
+        </header>
+        
+        <ul class="uses">
+          
+          <li><a href="sect0001.html#lem: zorn_base">Lemma 10</a></li>
+          
+          <li><a href="sect0001.html#lem: exists_uw_ge_normal">Lemma 5</a></li>
+          
+          <li><a href="sect0001.html#lem: msr_th_lemma">Lemma 6</a></li>
+          
+          <li><a href="sect0001.html#lem: cut_down_of_wstar">Lemma 8</a></li>
+          
+          <li><a href="sect0001.html#lem: spec_masa_wstar_stonean">Lemma 9</a></li>
+          
+          <li><a href="sect0001.html#lem: fin_lin_approx_of_stonean">Lemma 7</a></li>
+          
+          <li><a href="sect0001.html#lem: bdd_sigma_cts_iff_bdd_s_cts">Lemma 11</a></li>
+          
+        </ul>
+    
+      </div>
+    </div>
+
     
     
         </div>
   </div>
   <div class="theorem_thmcontent">
-  <p> Every positive normal linear functional \(\varphi \) on \(M\) is \(\sigma (M,M_{*})\)–continuous. </p>
+  <p>  Every positive normal linear functional \(\varphi \) on \(M\) is \(\sigma (M,M_{*})\)–continuous. </p>
 
   </div>
 </div>
-<div class="proof_wrapper" id="a0000000006">
+<div class="proof_wrapper" id="a0000000005">
   <div class="proof_heading">
     <span class="proof_caption">
     Proof
@@ -363,8 +391,8 @@
     <span class="expand-proof">▶</span>
   </div>
   <div class="proof_content">
-  <p>The claim is obvious for the zero functional. Let \(\varphi \) be a nonzero positive normal linear functional. By Lemma <a href="sect0001.html#lem: zorn_base">10</a> we have a maximal \(p_0\in \mathcal{P}(M)\) such that \(M\ni x \mapsto \varphi (xp_0)\) is \(\sigma (M,M_{*})\)–continuous. Assume for the purposes of finding a contradiction that \(p_0\ne 1\). By Lemma <a href="sect0001.html#lem: exists_uw_ge_normal">5</a> there is a \(\sigma (M,M_{*})\)–continuous positive functional \(\psi \) on \(M\) such that \(\varphi (1-p_0){\lt}\psi (1-p_0)\). By Lemma <a href="sect0001.html#lem: msr_th_lemma">6</a> there is a nonzero subprojection \(p\le 1-p_0\) in \(M\) such that \(\varphi (q)\lt \psi (q)\) for every nonzero \(q\le p\) in \(M\). Let \(x\in pMp\) be on the unit sphere. Then \(x^{*}x\) is positive and hence normal, so the \(C^{*}\)–subalgebra of \(pMp\) generated by \(x^{*}x\) and \(p\) is commutative, and is hence contained in a maximal abelian \(*\)–subalgebra \(A\) of \(pMp\). Now \(A\) is a \(W^{*}\)–subalgebra of \(pMp\) and hence is a maximal commutative \(C^{*}\)–subalgebra of \(pMp\). Via the Gelfand Transform, \(A\) is star isomorphic to \(C(K)\), where \(K\) is Stonean by Lemmas <a href="sect0001.html#lem: cut_down_of_wstar">8</a> and <a href="sect0001.html#lem: spec_masa_wstar_stonean">9</a>. By Lemma <a href="sect0001.html#lem: fin_lin_approx_of_stonean">7</a> it follows that for every \(a\ge 0\) in \(A\), \(\varphi (a)\le \psi (a)\), which holds a fortiori for \(a\ge 0\) in \(C^{*}(x^{*}x,p)\). In particular, \(\varphi (px^{*}xp)\le \psi (px^{*}xp)\). Therefore, </p>
-<div class="displaymath" id="a0000000007">
+  <p>The claim is obvious for the zero functional. Let \(\varphi \) be a nonzero positive normal linear functional. By Lemma <a href="sect0001.html#lem: zorn_base">10</a> we have a maximal \(p_0\in \mathcal{P}(M)\) such that \(M\ni x \mapsto \varphi (xp_0)\) is \(\sigma (M,M_{*})\)–continuous. Assume for the purposes of finding a contradiction that \(p_0\ne 1\). By Lemma <a href="sect0001.html#lem: exists_uw_ge_normal">5</a> there is a \(\sigma (M,M_{*})\)–continuous positive functional \(\psi \) on \(M\) such that \(\varphi (1-p_0){\lt}\psi (1-p_0)\). By Lemma <a href="sect0001.html#lem: msr_th_lemma">6</a> there is a nonzero subprojection \(p\le 1-p_0\) in \(M\) such that \(\varphi (q)\lt \psi (q)\) for every nonzero \(q\le p\) in \(M\). Let \(x\in pMp\) be on the unit sphere. Then \(x^{*}x\) is positive and hence normal, so the \(C^{*}\)–subalgebra of \(pMp\) generated by \(x^{*}x\) and \(p\) is commutative, and is hence contained in a maximal abelian \(*\)–subalgebra \(A\) of \(pMp\). Now \(A\) is a \(W^{*}\)–subalgebra of \(pMp\) and hence is a maximal commutative \(C^{*}\)–subalgebra of \(pMp\). Via the Gelfand Transform, \(A\) is star isomorphic to \(C(K)\), where \(K\) is Stonean by Lemmas <a href="sect0001.html#lem: cut_down_of_wstar">8</a> and <a href="sect0001.html#lem: spec_masa_wstar_stonean">9</a>. By Lemma <a href="sect0001.html#lem: fin_lin_approx_of_stonean">7</a> it follows that \(\varphi (a)\le \psi (a)\) for every \(a\ge 0\) in \(A\), which holds a fortiori for \(a\ge 0\) in \(C^{*}(x^{*}x,p)\). In particular, \(\varphi (px^{*}xp)\le \psi (px^{*}xp)\). Therefore, </p>
+<div class="displaymath" id="a0000000006">
   \begin{align}  |\varphi (x(p_0+p))|& \le |\varphi (xp_0)|+|\varphi (xp)|\\ \nonumber & \le |\varphi (xp_0)|+\varphi (1)^{1/2}\varphi (px^{*}xp)^{1/2}\\ \nonumber & \le |\varphi (xp_0)|+\varphi (1)^{1/2}\psi (px^{*}xp)^{1/2}. \end{align}
 </div>
 <p> Since \(x\mapsto \varphi (xp_0)\) is \(\sigma \)–continuous, it is \(s\)-continuous by Lemma <a href="sect0001.html#lem: bdd_sigma_cts_iff_bdd_s_cts">11</a>. The seminorm \(x \mapsto \psi (px^{*}xp)^{1/2}\) is a defining seminorm for the \(s\)–topology on \(M\). It follows that \(x\mapsto \varphi (x(p_0+p))\) is \(s\)-continuous and therefore \(\sigma \)–continuous. This contradicts the maximality of \(p_0\), and therefore \(p_0=1\) and the result follows. </p>
@@ -385,8 +413,6 @@
   <a href="index.html" title="\(W^{*}\)–Algebras have Unique Preduals"><svg  class="icon icon-arrow-left "><use xlink:href="symbol-defs.svg#icon-arrow-left"></use></svg>
 </a>
   <a href="index.html" title="\(W^{*}\)–Algebras have Unique Preduals"><svg  class="icon icon-arrow-up "><use xlink:href="symbol-defs.svg#icon-arrow-up"></use></svg>
-</a>
-  <a href="sect0002.html" title="Continuous functional calculus"><svg  class="icon icon-arrow-right "><use xlink:href="symbol-defs.svg#icon-arrow-right"></use></svg>
 </a>
 </nav>
 
