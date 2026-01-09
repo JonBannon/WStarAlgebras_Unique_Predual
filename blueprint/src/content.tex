@@ -15,7 +15,7 @@ we have $\varphi(p_{\alpha})\to \varphi(p)$. In this section we show that this p
 $\sigma(M, M_{*})$--continuity. We say that a linear functional $\varphi$ on $M$
 is \textbf{positive} if $\varphi(x)\ge 0$ whenever $x\ge 0$.
 
-\textit{Note : Nets must be replaced by filters.}
+\textit{To do : Net results must be replaced by filter analogues.}
 
 \begin{lemma}
   For all self-adjoint $x\in M$, $\|x\|1-x \ge 0$.
@@ -34,9 +34,24 @@ If $P:\mathcal{P}(M)\to \text{Prop}$ is a predicate, the usual ordering ``$\le$'
 induces an order on the set $\{p\in \mathcal{P}(M)|P(p)\}$. In what follows there will be no confusion if 
 we also denote this induced order by ``$\le$''.
 
+The following lemma undoubtedly exists in Mathlib in more generality already.
+
+\begin{lemma}
+For every nonzero element $a\in M$, there is a $\sigma(M,M_{*})$--continuous positive linear
+functional $\psi$ on $M$ such that $\psi(a)\ne 0$.
+\end{lemma}
+
 \begin{lemma}
   For every positive normal linear functional $\varphi$ and nonzero $p\in \mathcal{P}(M)$
-  there exists a positive $\sigma(M,M_{*})$--continuous linear function $\psi$ such that $\varphi(p)<\psi(p)$
+  there exists a positive $\sigma(M,M_{*})$--continuous linear functional $\psi$ such that $\varphi(p)<\psi(p)$.
+\end{lemma}
+
+
+\begin{lemma}
+For all positive linear functionals $\varphi,\psi$ with
+\varphi normal and $\psi$ $\sigma(M,M_{*})$--continuous and every nonzero $p\in \mathcal{P}(M)$
+such that $\varphi(p)<\psi(p)$, there exists a nonzero $p_1 \in \mathcal{P}(M)$ such that $p_1\le p$ and for all 
+$q\in \mathcal{P}(M)$ with $q\le p$, we have $\varphi(q)<\phi(q)$. 
 \end{lemma}
 
 
@@ -51,31 +66,6 @@ we also denote this induced order by ``$\le$''.
   A $*$-$R$-algebra is said to have a continuous functional calculus for elements satisfying a predicate $p$ if,
   for each $a$ satisfying $p$, there is a $*$-homomorphism $\phi_a : C(\spectrum[R]{a}, R) \to A$ sending the identity function to $a$, and which is a closed embedding.
   Moreover, $\spectrum[R]{a}$ is compact and nonempty, and $\phi_a$ satisfies the spectral mapping property (i.e., $\spectrum[R]{\phi_a(f)} = f(\spectrum[R]{a})$).
-\end{definition}
-
-\begin{definition}[Non-unital continuous functional calculus]
-  \label{def:nonunital_continuous_functional_calculus}
-  \lean{ContinuousFunctionalCalculus}
-  \mathlibok
-  A non-unital $*$-$R$-algebra is said to have a non-unital continuous functional calculus for elements satisfying a predicate $p$ if,
-  for each $a$ satisfying $p$, there is a non-unital $*$-homomorphism $\phi_a : C(\quasispectrum[R]{a}, R)_0 \to A$ (here $C(\quasispectrum[R]{a}, R)_0$ is the collection of functions vanishing at zero on the quasispectrum) sending the identity function to $a$, and which is a closed embedding.
-  Moreover, $\quasispectrum[R]{a}$ is compact (it's always nonempty because it contains $0$), and $\phi'_a$ satisfies the spectral mapping property (i.e., $\quasispectrum[R]{\phi'_a(f)} = f(\quasispectrum[R]{a})$).
-\end{definition}
-
-\begin{definition}
-  \label{def:cfc}
-  \lean{cfc}
-  \mathlibok
-  \uses{def:continuous_functional_calculus}
-  Given $a \in A$ satisfying $p$ and $f : R → R$ continuous on $\spectrum[R]{a}$, we define $f(a) := \phi'_a(f)$ (and we give it a junk value of zero when either $a$ does not satisfy $p$ or $f$ is not continuous on the spectrum).
-\end{definition}
-
-\begin{definition}
-  \label{def:cfcₙ}
-  \lean{cfcₙ}
-  \mathlibok
-  \uses{def:nonunital_continuous_functional_calculus}
-  Given $a \in A$ satisfying $p$ and $f : R → R$ continuous on $\spectrum[R]{a}$ and $f(0) = 0$, we define $f(a) := \phi'_a(f)$ (and we give it a junk value of zero when and of the conditions on $a$ and $f$ are not met).
 \end{definition}
 
 \begin{theorem}
