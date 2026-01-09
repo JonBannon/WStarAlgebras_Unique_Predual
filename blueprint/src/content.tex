@@ -15,17 +15,20 @@ we have $\varphi(p_{\alpha})\to \varphi(p)$. In this section we show that this p
 $\sigma(M, M_{*})$--continuity. We say that a linear functional $\varphi$ on $M$
 is \textbf{positive} if $\varphi(x)\ge 0$ whenever $x\ge 0$.
 
-\textit{To do : Net results must be replaced by filter analogues.}
+\textit{To do : Net results must be replaced by filter versions.}
 
 \begin{lemma}
+  \label{lem: selfadjoint_le_norm}
   For all self-adjoint $x\in M$, $\|x\|1-x \ge 0$.
 \end{lemma}
 
 \begin{lemma}
+  \label{lem: proj_sub_of_subproj}
   For all $p,q\in \mathcal{P}(M)$ such that $q\le p$, $p-q\in \mathcal{P}(M)$.
 \end{lemma}
 
 \begin{lemma}
+  \label{lem: proj_of_sup_proj}
   For every increasing bounded net $(p_{\alpha})$ of projections in $M$, the supremum $p$
   is a projection in $\mathcal{M}$
 \end{lemma}
@@ -37,23 +40,39 @@ we also denote this induced order by ``$\le$''.
 The following lemma undoubtedly exists in Mathlib in more generality already.
 
 \begin{lemma}
+  \label{lem: uw_pos_sep_pts}
 For every nonzero element $a\in M$, there is a $\sigma(M,M_{*})$--continuous positive linear
 functional $\psi$ on $M$ such that $\psi(a)\ne 0$.
 \end{lemma}
 
 \begin{lemma}
+  \label{lem: exists_uw_ge_normal}
   For every positive normal linear functional $\varphi$ and nonzero $p\in \mathcal{P}(M)$
   there exists a positive $\sigma(M,M_{*})$--continuous linear functional $\psi$ such that $\varphi(p)<\psi(p)$.
 \end{lemma}
 
 
 \begin{lemma}
+  \label{lem: msr_th_lemma}
 For all positive linear functionals $\varphi,\psi$ with
-\varphi normal and $\psi$ $\sigma(M,M_{*})$--continuous and every nonzero $p\in \mathcal{P}(M)$
+$\varphi$ normal and $\psi$ $\sigma(M,M_{*})$--continuous and every nonzero $p\in \mathcal{P}(M)$
 such that $\varphi(p)<\psi(p)$, there exists a nonzero $p_1 \in \mathcal{P}(M)$ such that $p_1\le p$ and for all 
 $q\in \mathcal{P}(M)$ with $q\le p$, we have $\varphi(q)<\phi(q)$. 
 \end{lemma}
 
+Recall that a compact Hausdorff space is \textbf{Stonean} if the closure of every open set is open.
+
+\begin{lemma}
+  \label{lem: fin_lin_approx_of_stonean}
+  Let $K$ be Stonean. Then every element $a$ in $C(K)$ can be uniformly approximated by 
+  finite linear combinations of projections in $C(K)$.
+\begin{lemma}
+
+\begin{lemma}
+  \label{lem: spec_masa_wstar_stonean}
+  If $C$ is any maximal commutative $C^*$--subalgebra of a $W^{*}$--algebra $M$, its
+  spectrum space (maximal ideal space) is Stonean.
+\end{lemma}
 
 
 
