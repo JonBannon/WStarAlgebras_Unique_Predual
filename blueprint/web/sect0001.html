@@ -49,13 +49,167 @@
 <div class="main-text">
 <h1 id="a0000000002">0.1 Normality and Ultraweak Continuity</h1>
 <p>In what follows, let \(M\) be a \(W^{*}\)–algebra. Let \(\mathcal{P}(M)\) denote the projection lattice of \(M\). Let \(\varphi \) be a positive linear functional \(\varphi \) on \(M\). We say \(\varphi \) is <b class="bfseries">normal</b> if whenever \((p_{\alpha })\) is an increasing net of projections in \(M\) with supremum \(p\), we have \(\varphi (p_{\alpha })\to \varphi (p)\). In this section we show that this property is equivalent to \(\sigma (M, M_{*})\)–continuity. We say that a linear functional \(\varphi \) on \(M\) is <b class="bfseries">positive</b> if \(\varphi (x)\ge 0\) whenever \(x\ge 0\). </p>
-<p><i class="itshape">To do : Net results must be replaced by filter analogues.</i> </p>
-<div class="lemma_thmwrapper theorem-style-plain" id="a0000000004">
+<p><i class="itshape">To do : Net results must be replaced by filter versions.</i> </p>
+<div class="lemma_thmwrapper theorem-style-plain" id="lem: selfadjoint_le_norm">
   <div class="lemma_thmheading">
     <span class="lemma_thmcaption">
     Lemma
     </span>
     <span class="lemma_thmlabel">1</span>
+    <div class="thm_header_extras">
+
+        </div>
+    <div class="thm_header_hidden_extras">
+
+    <a class="icon proof" href="sect0001.html#lem: selfadjoint_le_norm">#</a>
+    
+    
+    
+        </div>
+  </div>
+  <div class="lemma_thmcontent">
+  <p> For all self-adjoint \(x\in M\), \(\| x\| 1-x \ge 0\). </p>
+
+  </div>
+</div>
+<div class="lemma_thmwrapper theorem-style-plain" id="lem: proj_sub_of_subproj">
+  <div class="lemma_thmheading">
+    <span class="lemma_thmcaption">
+    Lemma
+    </span>
+    <span class="lemma_thmlabel">2</span>
+    <div class="thm_header_extras">
+
+        </div>
+    <div class="thm_header_hidden_extras">
+
+    <a class="icon proof" href="sect0001.html#lem: proj_sub_of_subproj">#</a>
+    
+    
+    
+        </div>
+  </div>
+  <div class="lemma_thmcontent">
+  <p> For all \(p,q\in \mathcal{P}(M)\) such that \(q\le p\), \(p-q\in \mathcal{P}(M)\). </p>
+
+  </div>
+</div>
+<div class="lemma_thmwrapper theorem-style-plain" id="lem: proj_of_sup_proj">
+  <div class="lemma_thmheading">
+    <span class="lemma_thmcaption">
+    Lemma
+    </span>
+    <span class="lemma_thmlabel">3</span>
+    <div class="thm_header_extras">
+
+        </div>
+    <div class="thm_header_hidden_extras">
+
+    <a class="icon proof" href="sect0001.html#lem: proj_of_sup_proj">#</a>
+    
+    
+    
+        </div>
+  </div>
+  <div class="lemma_thmcontent">
+  <p> For every increasing bounded net \((p_{\alpha })\) of projections in \(M\), the supremum \(p\) is a projection in \(\mathcal{M}\) </p>
+
+  </div>
+</div>
+<p>If \(P:\mathcal{P}(M)\to \text{Prop}\) is a predicate, the usual ordering “\(\le \)” on projections induces an order on the set \(\{ p\in \mathcal{P}(M)|P(p)\} \). In what follows there will be no confusion if we also denote this induced order by “\(\le \)”. </p>
+<p>The following lemma undoubtedly exists in Mathlib in more generality already. </p>
+<div class="lemma_thmwrapper theorem-style-plain" id="lem: uw_pos_sep_pts">
+  <div class="lemma_thmheading">
+    <span class="lemma_thmcaption">
+    Lemma
+    </span>
+    <span class="lemma_thmlabel">4</span>
+    <div class="thm_header_extras">
+
+        </div>
+    <div class="thm_header_hidden_extras">
+
+    <a class="icon proof" href="sect0001.html#lem: uw_pos_sep_pts">#</a>
+    
+    
+    
+        </div>
+  </div>
+  <div class="lemma_thmcontent">
+  <p> For every nonzero element \(a\in M\), there is a \(\sigma (M,M_{*})\)–continuous positive linear functional \(\psi \) on \(M\) such that \(\psi (a)\ne 0\). </p>
+
+  </div>
+</div>
+<div class="lemma_thmwrapper theorem-style-plain" id="lem: exists_uw_ge_normal">
+  <div class="lemma_thmheading">
+    <span class="lemma_thmcaption">
+    Lemma
+    </span>
+    <span class="lemma_thmlabel">5</span>
+    <div class="thm_header_extras">
+
+        </div>
+    <div class="thm_header_hidden_extras">
+
+    <a class="icon proof" href="sect0001.html#lem: exists_uw_ge_normal">#</a>
+    
+    
+    
+        </div>
+  </div>
+  <div class="lemma_thmcontent">
+  <p> For every positive normal linear functional \(\varphi \) and nonzero \(p\in \mathcal{P}(M)\) there exists a positive \(\sigma (M,M_{*})\)–continuous linear functional \(\psi \) such that \(\varphi (p){\lt}\psi (p)\). </p>
+
+  </div>
+</div>
+<div class="lemma_thmwrapper theorem-style-plain" id="lem: msr_th_lemma">
+  <div class="lemma_thmheading">
+    <span class="lemma_thmcaption">
+    Lemma
+    </span>
+    <span class="lemma_thmlabel">6</span>
+    <div class="thm_header_extras">
+
+        </div>
+    <div class="thm_header_hidden_extras">
+
+    <a class="icon proof" href="sect0001.html#lem: msr_th_lemma">#</a>
+    
+    
+    
+        </div>
+  </div>
+  <div class="lemma_thmcontent">
+  <p> For all positive linear functionals \(\varphi ,\psi \) with \(\varphi \) normal and \(\psi \) \(\sigma (M,M_{*})\)–continuous and every nonzero \(p\in \mathcal{P}(M)\) such that \(\varphi (p){\lt}\psi (p)\), there exists a nonzero \(p_1 \in \mathcal{P}(M)\) such that \(p_1\le p\) and for all \(q\in \mathcal{P}(M)\) with \(q\le p\), we have \(\varphi (q){\lt}\phi (q)\). </p>
+
+  </div>
+</div>
+<p>Recall that a compact Hausdorff space is <b class="bfseries">Stonean</b> if the closure of every open set is open. </p>
+<div class="lemma_thmwrapper theorem-style-plain" id="lem: fin_lin_approx_of_stonean">
+  <div class="lemma_thmheading">
+    <span class="lemma_thmcaption">
+    Lemma
+    </span>
+    <span class="lemma_thmlabel">7</span>
+    <div class="thm_header_extras">
+
+        </div>
+    <div class="thm_header_hidden_extras">
+
+    <a class="icon proof" href="sect0001.html#lem: fin_lin_approx_of_stonean">#</a>
+    
+    
+    
+        </div>
+  </div>
+  <div class="lemma_thmcontent">
+  <p> Let \(K\) be Stonean. Then every element \(a\) in \(C(K)\) can be uniformly approximated by finite linear combinations of projections in \(C(K)\). </p>
+<div class="lemma_thmwrapper theorem-style-plain" id="a0000000004">
+  <div class="lemma_thmheading">
+    <span class="lemma_thmcaption">
+    Lemma
+    </span>
+    <span class="lemma_thmlabel">8</span>
     <div class="thm_header_extras">
 
         </div>
@@ -68,119 +222,31 @@
         </div>
   </div>
   <div class="lemma_thmcontent">
-  <p>For all self-adjoint \(x\in M\), \(\| x\| 1-x \ge 0\). </p>
-
-  </div>
-</div>
-<div class="lemma_thmwrapper theorem-style-plain" id="a0000000005">
+  <div class="lemma_thmwrapper theorem-style-plain" id="lem: spec_masa_wstar_stonean">
   <div class="lemma_thmheading">
     <span class="lemma_thmcaption">
     Lemma
     </span>
-    <span class="lemma_thmlabel">2</span>
+    <span class="lemma_thmlabel">9</span>
     <div class="thm_header_extras">
 
         </div>
     <div class="thm_header_hidden_extras">
 
-    <a class="icon proof" href="sect0001.html#a0000000005">#</a>
+    <a class="icon proof" href="sect0001.html#lem: spec_masa_wstar_stonean">#</a>
     
     
     
         </div>
   </div>
   <div class="lemma_thmcontent">
-  <p>For all \(p,q\in \mathcal{P}(M)\) such that \(q\le p\), \(p-q\in \mathcal{P}(M)\). </p>
+  <p> If \(C\) is any maximal commutative \(C^*\)–subalgebra of a \(W^{*}\)–algebra \(M\), its spectrum space (maximal ideal space) is Stonean. </p>
 
   </div>
 </div>
-<div class="lemma_thmwrapper theorem-style-plain" id="a0000000006">
-  <div class="lemma_thmheading">
-    <span class="lemma_thmcaption">
-    Lemma
-    </span>
-    <span class="lemma_thmlabel">3</span>
-    <div class="thm_header_extras">
-
-        </div>
-    <div class="thm_header_hidden_extras">
-
-    <a class="icon proof" href="sect0001.html#a0000000006">#</a>
-    
-    
-    
-        </div>
-  </div>
-  <div class="lemma_thmcontent">
-  <p>For every increasing bounded net \((p_{\alpha })\) of projections in \(M\), the supremum \(p\) is a projection in \(\mathcal{M}\) </p>
 
   </div>
 </div>
-<p>If \(P:\mathcal{P}(M)\to \text{Prop}\) is a predicate, the usual ordering “\(\le \)” on projections induces an order on the set \(\{ p\in \mathcal{P}(M)|P(p)\} \). In what follows there will be no confusion if we also denote this induced order by “\(\le \)”. </p>
-<p>The following lemma undoubtedly exists in Mathlib in more generality already. </p>
-<div class="lemma_thmwrapper theorem-style-plain" id="a0000000007">
-  <div class="lemma_thmheading">
-    <span class="lemma_thmcaption">
-    Lemma
-    </span>
-    <span class="lemma_thmlabel">4</span>
-    <div class="thm_header_extras">
-
-        </div>
-    <div class="thm_header_hidden_extras">
-
-    <a class="icon proof" href="sect0001.html#a0000000007">#</a>
-    
-    
-    
-        </div>
-  </div>
-  <div class="lemma_thmcontent">
-  <p>For every nonzero element \(a\in M\), there is a \(\sigma (M,M_{*})\)–continuous positive linear functional \(\psi \) on \(M\) such that \(\psi (a)\ne 0\). </p>
-
-  </div>
-</div>
-<div class="lemma_thmwrapper theorem-style-plain" id="a0000000008">
-  <div class="lemma_thmheading">
-    <span class="lemma_thmcaption">
-    Lemma
-    </span>
-    <span class="lemma_thmlabel">5</span>
-    <div class="thm_header_extras">
-
-        </div>
-    <div class="thm_header_hidden_extras">
-
-    <a class="icon proof" href="sect0001.html#a0000000008">#</a>
-    
-    
-    
-        </div>
-  </div>
-  <div class="lemma_thmcontent">
-  <p>For every positive normal linear functional \(\varphi \) and nonzero \(p\in \mathcal{P}(M)\) there exists a positive \(\sigma (M,M_{*})\)–continuous linear functional \(\psi \) such that \(\varphi (p){\lt}\psi (p)\). </p>
-
-  </div>
-</div>
-<div class="lemma_thmwrapper theorem-style-plain" id="a0000000009">
-  <div class="lemma_thmheading">
-    <span class="lemma_thmcaption">
-    Lemma
-    </span>
-    <span class="lemma_thmlabel">6</span>
-    <div class="thm_header_extras">
-
-        </div>
-    <div class="thm_header_hidden_extras">
-
-    <a class="icon proof" href="sect0001.html#a0000000009">#</a>
-    
-    
-    
-        </div>
-  </div>
-  <div class="lemma_thmcontent">
-  <p>For all positive linear functionals \(\varphi ,\psi \) with ϕnormal and \(\psi \) \(\sigma (M,M_{*})\)–continuous and every nonzero \(p\in \mathcal{P}(M)\) such that \(\varphi (p){\lt}\psi (p)\), there exists a nonzero \(p_1 \in \mathcal{P}(M)\) such that \(p_1\le p\) and for all \(q\in \mathcal{P}(M)\) with \(q\le p\), we have \(\varphi (q){\lt}\phi (q)\). </p>
 
   </div>
 </div>
