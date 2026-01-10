@@ -80,7 +80,12 @@ jobs:
             pip install --upgrade pip requests wheel
             pip install pygraphviz
             pip install leanblueprint
-            leanblueprint pdf
+            # Build PDF using LuaLaTeX (unicode-math requires it), from src so relative inputs work
+            rm -rf blueprint/print/*
+            mkdir -p blueprint/print
+            cd blueprint/src
+            latexmk -lualatex -interaction=nonstopmode -file-line-error -output-directory=../print print.tex
+            cd ../..
             mkdir -p home_page
             cp blueprint/print/print.pdf home_page/blueprint.pdf
             leanblueprint web
