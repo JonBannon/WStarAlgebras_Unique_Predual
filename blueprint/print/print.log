@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  9 JAN 2026 12:57
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  10 JAN 2026 08:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2874,12 +2874,6 @@ l.20 ...ction{$\sigma$--Continuous Implies Normal}
                                                   \fi  \expandafter \fi \exp...
 l.20 ...ction{$\sigma$--Continuous Implies Normal}
                                                   
-? ^^[[B^^[[B^^[[B^^[[B^^[[B^^[[B^^[[B
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-1 or ... or 9 to ignore the next 1 to 9 tokens of input,
-H for help, X to quit.
 ? 
 ! Extra \fi.
 <argument> ...4-1)/2)/262144*262144\relax \fi \fi 
@@ -4774,77 +4768,13 @@ l.25 ...ction{Normal Implies $\sigma$--Continuous}
                                                   
 ? 
 
-LaTeX Warning: Reference `lem: zorn_base' on page 1 undefined on input line 110
-.
-
-
-LaTeX Warning: Reference `lem: exists_uw_ge_normal' on page 1 undefined on inpu
-t line 110.
-
-
-LaTeX Warning: Reference `lem: msr_th_lemma' on page 1 undefined on input line 
-110.
-
-
-LaTeX Warning: Reference `lem: cut_down_of_wstar' on page 1 undefined on input 
-line 110.
-
-
-LaTeX Warning: Reference `lem: spec_masa_wstar_stonean' on page 1 undefined on 
-input line 110.
-
-
-LaTeX Warning: Reference `lem: fin_lin_approx_of_stonean' on page 1 undefined o
-n input line 110.
-
-
-LaTeX Warning: Reference `lem: bdd_sigma_cts_iff_bdd_s_cts' on page 1 undefined
- on input line 110.
-
-
-LaTeX Warning: Reference `lem: wstar_of_masa' on page 1 undefined on input line
- 110.
-
-
 
 [1]
-
-LaTeX Warning: Reference `lem: zorn_base' on page 2 undefined on input line 115
-.
-
-
-LaTeX Warning: Reference `lem: exists_uw_ge_normal' on page 2 undefined on inpu
-t line 117.
-
-
-LaTeX Warning: Reference `lem: msr_th_lemma' on page 2 undefined on input line 
-118.
-
 ! Undefined control sequence.
 l.119 ...le 1-p_0$ in $M$ such that $\varphi(q)\lt
                                                    \psi(q)$ for every nonzer...
 
 ? 
-
-LaTeX Warning: Reference `lem: wstar_of_masa' on page 2 undefined on input line
- 121.
-
-
-LaTeX Warning: Reference `lem: cut_down_of_wstar' on page 2 undefined on input 
-line 122.
-
-
-LaTeX Warning: Reference `lem: spec_masa_wstar_stonean' on page 2 undefined on 
-input line 122.
-
-
-LaTeX Warning: Reference `lem: fin_lin_approx_of_stonean' on page 2 undefined o
-n input line 123.
-
-
-LaTeX Warning: Reference `lem: bdd_sigma_cts_iff_bdd_s_cts' on page 2 undefined
- on input line 130.
-
 )
 
 [2] (/Users/jon/Blueprint Test/double_commutant/blueprint/print/print.aux)
@@ -4852,30 +4782,17 @@ LaTeX Warning: Reference `lem: bdd_sigma_cts_iff_bdd_s_cts' on page 2 undefined
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `print.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `print.out':
-(rerunfilecheck)             Before: 8156E7DFCDEC95629E9D6F3A936C4039;213
-(rerunfilecheck)             After:  EE6B8AB5A88535E5B38F47B8667FF3AF;14783.
+Package rerunfilecheck Info: File `print.out' has not changed.
+(rerunfilecheck)             Checksum: EE6B8AB5A88535E5B38F47B8667FF3AF;14783.
  ) 
 Here is how much of TeX's memory you used:
- 16739 strings out of 473832
- 308890 string characters out of 5729482
+ 16736 strings out of 473832
+ 308819 string characters out of 5729482
  909329 words of memory out of 5000000
- 39600 multiletter control sequences out of 15000+600000
+ 39597 multiletter control sequences out of 15000+600000
  566114 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 90i,8n,107p,542b,475s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,8n,107p,5034b,475s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /Users/jon/Blueprint Test/double_commutant/blueprint/print/pr
 int.pdf (3 pages).

@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1767981466.21561 "print.tex" "/Users/jon/Blueprint Test/double_commutant/blueprint/print/print.pdf" "print" 1767981556.50034 2
-  "/Users/jon/Blueprint Test/double_commutant/blueprint/print/print.aux" 1767981556.2501 1370 346546e2d7923413010351824f17b7d4 "pdflatex"
-  "/Users/jon/Blueprint Test/double_commutant/blueprint/print/print.out" 1767981556.25055 14783 ee6b8ab5a88535e5b38f47b8667ff3af "pdflatex"
+["pdflatex"] 1768051037.17565 "print.tex" "/Users/jon/Blueprint Test/double_commutant/blueprint/print/print.pdf" "print" 1768051113.53968 2
+  "/Users/jon/Blueprint Test/double_commutant/blueprint/print/print.aux" 1768051113.30667 1370 346546e2d7923413010351824f17b7d4 "pdflatex"
+  "/Users/jon/Blueprint Test/double_commutant/blueprint/print/print.out" 1768051113.3071 14783 ee6b8ab5a88535e5b38f47b8667ff3af "pdflatex"
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -83,7 +83,7 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1741450550 5639796 b6822fbf027c6598cec2e241e0925725 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "content.tex" 1767981093.09118 7143 458069ddba24a72564189cb34100fbb9 ""
+  "content.tex" 1767982358.60655 7142 046454bbbc9fb211123bc27380824d9d ""
   "macros/common.tex" 1760028904.48652 951 01f99c62838198d927839d5932f35177 ""
   "macros/print.tex" 1759426435.00121 1101 87627b2ec24fef68edc71c13f43f7bab ""
   "print.tex" 1767899990.81017 1142 13e7df2739f8ea611fbd670cc4a45967 ""
