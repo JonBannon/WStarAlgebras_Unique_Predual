@@ -1,9 +1,9 @@
-PWD /Users/jon/Blueprint Test/double_commutant/blueprint/src
+PWD /Users/jon/Blueprint Test/double_commutant/blueprint
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
-INPUT /usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt
-INPUT print.tex
-OUTPUT /Users/jon/Blueprint Test/double_commutant/blueprint/print/print.log
+INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT src/print.tex
+OUTPUT print/print.log
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/report.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/report.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo
@@ -19,8 +19,8 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
@@ -81,8 +81,6 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
@@ -90,111 +88,15 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/atveryend/atveryend.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/unicode-math/unicode-math.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/unicode-math/unicode-math.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/fix-cm.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/fix-cm.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/ts1enc.def
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex
-INPUT ./macros/common.tex
-INPUT ./macros/common.tex
-INPUT ./macros/common.tex
-INPUT ./macros/common.tex
-INPUT macros/common.tex
-INPUT ./macros/print.tex
-INPUT ./macros/print.tex
-INPUT ./macros/print.tex
-INPUT ./macros/print.tex
-INPUT macros/print.tex
-INPUT /Users/jon/Blueprint Test/double_commutant/blueprint/print/print.aux
-INPUT /Users/jon/Blueprint Test/double_commutant/blueprint/print/print.aux
-INPUT /Users/jon/Blueprint Test/double_commutant/blueprint/print/print.aux
-OUTPUT /Users/jon/Blueprint Test/double_commutant/blueprint/print/print.aux
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
-INPUT /Users/jon/Blueprint Test/double_commutant/blueprint/print/print.out
-INPUT /Users/jon/Blueprint Test/double_commutant/blueprint/print/print.out
-INPUT /Users/jon/Blueprint Test/double_commutant/blueprint/print/print.out
-INPUT /Users/jon/Blueprint Test/double_commutant/blueprint/print/print.out
-INPUT /Users/jon/Blueprint Test/double_commutant/blueprint/print/print.out
-INPUT /Users/jon/Blueprint Test/double_commutant/blueprint/print/print.out
-OUTPUT /Users/jon/Blueprint Test/double_commutant/blueprint/print/print.out
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT ./content.tex
-INPUT ./content.tex
-INPUT ./content.tex
-INPUT ./content.tex
-INPUT content.tex
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT /Users/jon/Blueprint Test/double_commutant/blueprint/print/print.aux
-INPUT /Users/jon/Blueprint Test/double_commutant/blueprint/print/print.out
-INPUT /Users/jon/Blueprint Test/double_commutant/blueprint/print/print.out
