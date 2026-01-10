@@ -61,9 +61,9 @@ jobs:
             echo "HOME_PAGE_EXISTS=false" >> $GITHUB_ENV
           fi
       - name: Install graphviz system deps
-         run: |
-         sudo apt-get update
-         sudo apt-get install -y graphviz graphviz-dev pkg-config
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y graphviz graphviz-dev pkg-config
 
       - name: Build blueprint and copy to `home_page/blueprint`
         uses: xu-cheng/texlive-action@v2
