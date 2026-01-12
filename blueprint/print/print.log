@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  12 JAN 2026 08:36
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  12 JAN 2026 08:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -693,8 +693,25 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 11.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 25.
 
+[1])
 
-Package hyperref Warning: Token not al
+[2] (/Users/jon/Blueprint Test/double_commutant/blueprint/print/print.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+Package rerunfilecheck Info: File `print.out' has not changed.
+(rerunfilecheck)             Checksum: D1E4804DA9858BABF913ADFF92EE5413;868.
+ ) 
+Here is how much of TeX's memory you used:
+ 16727 strings out of 473832
+ 308513 string characters out of 5729482
+ 908329 words of memory out of 5000000
+ 39591 multiletter control sequences out of 15000+600000
+ 565153 words of font info for 89 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 90i,8n,107p,542b,423s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on /Users/jon/Blueprint Test/double_commutant/blueprint/print/pr
+int.pdf (3 pages).
